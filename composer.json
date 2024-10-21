@@ -10,7 +10,7 @@
         }
     },
     "config": {
-        "optimize-autoloader": True,
+        "optimize-autoloader": true,
         "preferred-install": "dist"
     }
 }
