@@ -1,10 +1,10 @@
-{
+# Let's create a basic composer.json file with some standard dependencies (like Monolog) for the project.
+composer_json_content = {
     "name": "promptlab/prompt-lab",
-    "description": "PromptLab Is an AI Prompt Marketplace application designed to enhance the management of your prompt business...",
+    "description": "PromptLab is an AI Prompt Marketplace application.",
     "require": {
         "monolog/monolog": "^2.3",
-        "php": "^7.4 || ^8.0",
-        "other/package": "^1.0"
+        "php": "^7.4 || ^8.0"
     },
     "autoload": {
         "psr-4": {
@@ -12,9 +12,21 @@
         }
     },
     "config": {
-        "optimize-autoloader": true,
+        "optimize-autoloader": True,
         "preferred-install": "dist"
     }
 }
+
+# Define the path for the new composer.json file
+composer_json_path = os.path.join(files_dir, 'composer.json')
+
+# Write the content to the composer.json file
+import json
+with open(composer_json_path, 'w') as composer_file:
+    json.dump(composer_json_content, composer_file, indent=4)
+
+# Verify the file has been created
+os.listdir(files_dir)
+
 
 
