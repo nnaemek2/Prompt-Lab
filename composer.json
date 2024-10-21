@@ -1,4 +1,4 @@
-"name": "promptlab/prompt-lab",
+{ "name": "promptlab/prompt-lab",
     "description": "PromptLab is an AI Prompt Marketplace application.",
     "require": {
         "monolog/monolog": "^2.3",
