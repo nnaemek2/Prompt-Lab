@@ -1,6 +1,6 @@
 {
     "name": "Prompt-Lab",
-    "description": "Your project description",
+    "description": "PromptLab Is an AI Prompt Marketplace application designed to enhance the management of your prompt business. It provides administrators with essential tools to oversee prompt submissions, user activities, and financial transactions.",
     "require": {
         "monolog/monolog": "^2.3",
         "php": "^7.4 || ^8.0",
